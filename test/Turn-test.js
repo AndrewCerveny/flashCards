@@ -38,7 +38,7 @@ describe("Turn Class", function() {
             "question": "What allows you to define a set of related information using key-value pairs?",
             "answers": ["object", "array", "function"],
             "correctAnswer": "object"
-	    }, 
+	    	} 
         )
     })
 
@@ -58,5 +58,23 @@ describe("Turn Class", function() {
 	    		}
         	)
     })
+		it('Should return true if the users guess is correct', function(){
+			let turn = new Turn('object', card1)
+			expect(turn.evaluateGuess()).to.equal(true)
+		})
 		
+		it('Should return false if the users guess is incorrect', function(){
+			let turn = new Turn('array',card1)
+			expect(turn.evaluateGuess()).to.equal(false)
+		})
+
+		it('Should return a statement based on a user being correct', function(){
+			let turn = new Turn('array',card2)
+			expect(turn.giveFeedback()).to.equal('correct!')
+		})
+
+		it('Should return a statement based on a user being incorrect', function(){
+			let turn = new Turn('object', card2)
+			expect(turn.giveFeedback()).to.equal('incorrect!')
+		})
 })  
