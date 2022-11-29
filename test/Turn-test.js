@@ -1,8 +1,8 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const Card = require('../src/Card.js')
-const Turn = require('../src/Turn.js')
+const {Card} = require('../src/Card.js')
+const {Turn} = require('../src/Turn.js')
 
 
 describe("Turn Class", function() {
