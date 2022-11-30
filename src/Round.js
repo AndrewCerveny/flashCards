@@ -36,12 +36,12 @@ class Round {
    return Math.trunc(percent)
   }
   endRound() {
-    if(this.deck.length === 0) {
     const percent = this.calculatePercentCorrect()
-    return `** You answered ${percent}% of the questions correctly!`
+    const endMessage = `** You answered ${percent}% of the questions correctly!`
+    console.log(endMessage)
     }
-  }
 }
+
 
 
 module.exports = {Round};
