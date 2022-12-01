@@ -56,5 +56,5 @@ The second challenge I had with the project was figuring out how to test for gam
 The third challenge I had was there was no message invoked at the end of the game telling the user the percentage of incorrect and correct guesses. I asked for help and someone suggested console.logging the message so that it would appear in the terminal and that seemed to fix the issue. 
 
 ### Future Features:
-Additions that I could potentially do are create conditions that if a person were to get a certain percent wrong a console.log message appears to try playing the card again. The second addition could be to expand my harry potter trivia. 
+Additions that I could potentially create are:  conditions that if a person were to get a certain percent wrong a console.log message appears to try playing the game over, and expanding the Harry Potter trivia. 
 
