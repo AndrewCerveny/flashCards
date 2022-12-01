@@ -2,7 +2,8 @@
 
 
 ### Abstract: 
-The objectives of this project are; to practice TDD testing,learning mocha and chai relationship, to practice expect syntax,to see how an array iterator can be used in a project, and to practice class to class interaction.   
+The objectives of this project are; to practice TDD testing,learning mocha and chai relationship, to practice expect syntax,to see how an array iterator can be used in a project, and to practice class to class interaction.  
+There are two versions of the game a Harry Potter trivia was added- there is only 12 questions maybe someday there will be more. 
  
 ### The instruction provided are: 
 https://frontend.turing.edu/projects/flash-cards.html
@@ -24,6 +25,9 @@ https://frontend.turing.edu/projects/flash-cards.html
 
 ![Screen Shot 2022-11-30 at 10 18 51 PM](https://user-images.githubusercontent.com/104449342/204959142-f8f3d68b-32af-4d26-9842-9c6346a67603.png)
 
+### Harry Potter:
+
+![Screen Shot 2022-12-01 at 6 07 55 PM](https://user-images.githubusercontent.com/104449342/205178377-ad3553c1-cf56-4c68-acdc-9f52a4b759f8.png)
 
 
 
@@ -52,5 +56,5 @@ The second challenge I had with the project was figuring out how to test for gam
 The third challenge I had was there was no message invoked at the end of the game telling the user the percentage of incorrect and correct guesses. I asked for help and someone suggested console.logging the message so that it would appear in the terminal and that seemed to fix the issue. 
 
 ### Future Features:
-Additions that I could potentially do are create conditions that if a person were to get a certain percent wrong a console.log message appears to try playing the card again. The second addition could be to create another deck of cards that could be played and ran through the game. 
+Additions that I could potentially do are create conditions that if a person were to get a certain percent wrong a console.log message appears to try playing the card again. The second addition could be to expand my harry potter trivia. 
 
