@@ -21,7 +21,8 @@ https://frontend.turing.edu/projects/flash-cards.html
 ### Preview of App:
 
 ![Screen Shot 20![Screen Shot 2022-11-30 at 10 19 23 PM](https://user-images.githubusercontent.com/104449342/204958808-0e52139c-667a-45a5-8db5-cb23cffd16d1.png)
-![Screen Shot 2022-11-30 at 10 19 23 PM](https://user-images.githubusercontent.com/104449342/204959086-78b004f6-7d42-4cc5-8bd2-9845636034e4.png)
+
+![Screen Shot 2022-11-30 at 10 18 51 PM](https://user-images.githubusercontent.com/104449342/204959142-f8f3d68b-32af-4d26-9842-9c6346a67603.png)
 
 
 
