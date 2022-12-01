@@ -19,6 +19,8 @@ https://frontend.turing.edu/projects/flash-cards.html
 8) to run game type 'node index.js'
 
 ### Preview of App:
+![Screen Shot 20![Screen Shot 2022-11-30 at 10 19 23 PM](https://user-images.githubusercontent.com/104449342/204958808-0e52139c-667a-45a5-8db5-cb23cffd16d1.png)
+22-11-30 at 10 18 51 PM](https://user-images.githubusercontent.com/104449342/204958803-1db60e97-5c2e-4017-a792-4c6c735a313d.png)
 
 
 
