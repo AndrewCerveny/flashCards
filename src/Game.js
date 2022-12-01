@@ -1,16 +1,20 @@
 const data = require('../src/data')
 const {prototypeData} = require('../src/data');
+const {harryPotter} = require('../src/sampleData')
 const { Card } = require('./Card');
 const { Deck } = require('./Deck');
+
+
+
 const { Round } = require('./Round');
 const util = require('./util');
 
 class Game {
-  constructor() {
+  constructor(dataSet) {
     this.currentRound = null
-    this.data = prototypeData
+    this.data = dataSet
     this.deck = null
-  
+ 
     
   }
   printMessage(deck, round) {
