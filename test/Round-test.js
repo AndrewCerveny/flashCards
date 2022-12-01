@@ -112,14 +112,14 @@ describe("Round Class", function(){
 	it('Should display the next card in the deck', function(){
 		const round = new Round(deck)
 		round.takeTurn('array')
-		expect(round.currentCard).to.deep.equal(
-			{
+		const outcome = {
     	id: 2,
     	question: 'What is a comma-separated list of related values?',
     	answers: [ 'array', 'object', 'function' ],
     	correctAnswer: 'array'
   		}
-		)
+		expect(round.currentCard).to.deep.equal(outcome)
+		
 	})
 	it('Should calculate the percentage of correct answers', function(){
 		const round = new Round(deck)
